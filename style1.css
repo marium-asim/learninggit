@@ -1,0 +1,286 @@
+/*STYLING HEADER OR TOP BAR */
+.header{
+  padding:10px; 
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  background-color: #316DC3;
+}
+
+/*STYLING MARQUEE FOR LATEST NEWS*/ 
+.marque{
+background-color:#316DC3 ;
+color: white;
+margin: 10px;
+width: 88%;
+text-align: center;
+height: 30px;
+}
+
+/*STYLING SOCIAL MEDIA BUTTONS ON TOP BAR*/ 
+.social
+{
+  margin-left: 100px; 
+  word-spacing: 20px; 
+  padding-top:3px;
+}
+.fa-whatsapp{
+  background: rgb(8, 184, 8);
+  width: 20px;
+  height: 20px;
+text-align: center;
+text-decoration: none;
+border-radius: 3px;
+}
+.one{
+  margin-left: 100px; 
+  color: white;
+}
+
+/*STYLING BUTTONS ON TOP BAR*/
+.buttonsay{
+  font-size: 13px; 
+  height: 30px; 
+  width: 80px;
+  color: rgb(124, 123, 123); 
+  border: 1px rgb(7, 102, 7) solid;
+  padding: 3px 4px 4px;
+
+}
+.buttonsay1{
+  font-size: 13px; 
+  height: 30px; 
+  width: 100px;
+  color: rgb(124, 123, 123); 
+  border: 1px rgb(7, 102, 7) solid;
+  padding: 3px 4px 4px;
+
+}
+
+/*STYLING NAVBAR*/
+  .menu{
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+background-color: #f7f8fa;
+margin: 10px 0px;
+position: sticky;
+top:0;
+z-index:1;
+
+
+  }
+  .nav-link{
+    color: black;
+    
+    font-size: 15px;
+  }
+  .nav-pills li:hover{
+    background-color: #316DC3; 
+    border-radius: 40px;
+    
+  }
+  
+  .nav-link:hover{
+    color:white;
+  }
+ /*STYLING INTRODUCTION SECTION*/
+  .intro
+  {
+    text-align: left; margin: 15px 200px 50px; color: #666666;
+  }
+  .line{
+    width:3%;  border:#427900 1px solid; display: inline-block; position: relative; top: 27px;
+  }
+
+  /*STYLING STATS SECTION*/
+  .stats{
+    background-color: #2755e9; 
+    width: 100%; 
+    margin-bottom: 50px; 
+    padding: 50px; 
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: space-around;
+  }
+  .rupees{
+    color:white; 
+    font-size:60px; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .first{
+    color: white; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .second{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color:#00ff00;
+  }
+
+/*STYLING HEADINGS*/
+  .part1{
+    color: #316DC3; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  .part2{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: #427900;"
+  }
+
+  
+
+  /*STYLING IMAGE GALLERY SECTION*/
+  .gallery{
+    margin: 30px 90px; 
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: space-around;
+  }
+
+  /*STYLING MISSION, UPCOMING PROJECTS AND EVENTS SECTION*/
+  .events{
+    padding:40px 10px 0px; 
+    color:  #316DC3; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-weight: bold;
+  }
+ 
+  .mission{
+    color: #316DC3; 
+    padding: 40px 100px 0px; 
+    font-weight: bold; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .missioncontainer
+  {
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: space-around;  
+    margin:0px 0px 20px 90px;
+  }
+  .micons{
+    padding: 20px 15px;
+  }
+  .mbox{
+    background-color: #f7f8fa; 
+    width:370px; 
+    height:80px;
+    border: 1px #eaecf0 solid;
+  }
+  .mtext{
+    text-align: center; 
+    display: inline;  
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: #316DC3;
+  }
+  /*STYLING WHAT WE ARE DOING SECTION*/
+  .services{
+    color: #316DC3; 
+    text-align: center;
+    background-color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 40px;
+    height: 200px;
+    width: 350px;
+    box-shadow: 2px 2px 20px rgb(194, 191, 191);
+  }
+h5{
+  padding-top: 20px;
+}
+.pic
+{
+  height: 150px;
+  width: 230px;
+}
+.strong{
+  font-weight: normal;
+  color: #00ff00;
+}
+
+/*STYLING FOOTER*/ 
+.fa-phone{
+  color: #427900;
+}
+.fa-globe
+{
+  color:#427900;
+}
+.fa-envelope-o{
+  color:#427900;
+}
+.footer{
+  padding:50px 70px 30px; 
+  margin-top:180px; 
+  background-color:#25272e; 
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  justify-content: space-around;"
+}
+.foot{
+  width: 400px; 
+  height: 250px; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #f7f8fa
+}
+.foot1{
+  width: 400px; 
+  height: 250px; 
+  color: rgb(151, 148, 148);
+}
+.copyright{
+  background-color: #316DC3; 
+  padding: 14px 0px 10px 100px; 
+  color:white;
+}
+
+.faicon{
+  color: white; 
+  background: #316DC3;
+  padding: 9px 10px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+
+/*When screen size <=600px menu icon appears*/
+#toggle{
+  visibility: hidden;
+}
+@media screen and (min-width:601px){
+  .navmenu label{
+    display: none;
+  }
+  
+  .menubar{
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 600px)
+{
+  .navmenu label{
+    float:right;
+    margin:8px 0px 0px 190px;
+    font-size: 20px;
+  
+   }
+   
+   .menubar{
+     display: none;
+   }
+   
+   
+   #toggle:checked + .menubar{
+     display: block;
+   }
+  
+}

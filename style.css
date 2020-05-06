@@ -1,4 +1,32 @@
-h1,p,body{
-    color: purple;
-    background-color: yellow;
-}
+
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+            color: blueviolet;
+        }
+
+        .reg {
+            background-color: rgb(109, 51, 245);
+            margin: 50px;
+
+        }
+
+        label {
+            color: white;
+            padding: 40px;
+        }
+
+        #sub,
+        #res {
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        #txt {
+            vertical-align: middle
+        }
+
+        body {
+            color: white;
+        }
+  
